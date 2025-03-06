@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naga_Dinesh_Reddy_Koneti_resume</title>
+    <!-- <style>
+      body{
+        margin: 0 auto;
+        max-width: 85%;
+        padding: 5px;
+      }
+      header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px; /* Space between the elements */
+      }
+      header div {
+          white-space: nowrap; /* Prevent text wrapping */
+      }
+      
+      #contact_details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+      #contact_details a {
+          text-decoration: none;
+          color: rgb(90, 90, 190);
+          margin-right: 5px;
+      }
+      #contact_details a::after {
+          content: " |";
+          margin-left: 5px;
+      }
+      #contact_details a:last-child::after {
+          content: ""; /* Removes separator for last link */
+      }
+      .line {
+        margin-bottom: 5px;
+          padding: 5px;
+          border-bottom: 2px solid #000;
+      }
+      .dotted {
+        margin-bottom: 5px;
+          padding: 5px;
+          border-bottom: 2px dotted #000;
+      }
+      #summary{
+        text-indent: 4em;
+      }
+      #company{
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+      }
+      h1, p, h2, h3, ul{
+        margin: 2px;
+      }
+      #company_details, #project, #Skills{
+        padding-left: 2em;
+      }
+      #experince{
+        display: flex;
+        gap: 5px;
+      }
+      #project, #Skills{
+        margin-bottom: 10px;
+      }
+
+      @media screen and (max-width: 480px) {
+        body {
+          max-width: 100%; /* Use full width */
+          padding: 10px;
+        }
+
+        #summary {
+          text-indent: 1.5em; /* Reduce indentation */
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+
+        h2 {
+          font-size: 18px;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+
+        #contact_details {
+          gap: 3px;
+        }
+
+        #company_details, #project, #Skills {
+          padding-left: 0.5em;
+        }
+      }
+    </style> -->
+    <style>
+      body {
+        margin: auto auto;
+        margin-top: 10px;
+        max-width: 95%;
+        padding: 5px;
+        font-size: 16px; /* Base font size for better scaling */
+      }
+
+      /* Ensure header adapts to different screen sizes */
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px; /* Space between elements */
+        flex-wrap: wrap; /* Wrap content on smaller screens */
+        text-align: center;
+      }
+
+      header div {
+        white-space: nowrap; /* Prevents text wrapping */
+      }
+
+      #contact_details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Ensure links wrap on small screens */
+        gap: 2px;
+        text-align: center;
+      }
+
+      #contact_details a {
+        text-decoration: none;
+        color: rgb(90, 90, 190);
+        margin-right: 2px;
+      }
+
+      #contact_details a::after {
+        content: " |";
+        margin-left: 2px;
+      }
+
+      #contact_details p::after {
+        content: "|";
+        color: rgb(90, 90, 190);
+      }
+
+
+      #contact_details a:last-child::after {
+        content: ""; /* Removes separator for last link */
+      }
+
+      .line {
+        margin-bottom: 5px;
+        padding: 5px;
+        border-bottom: 2px solid #000;
+      }
+
+      .dotted {
+        margin-bottom: 5px;
+        padding: 5px;
+        border-bottom: 2px dotted #000;
+      }
+
+      #summary {
+        text-indent: 4em;
+        text-align: justify; 
+      }
+
+      #company {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap; 
+      }
+
+      h1, p, h2, h3, ul {
+        margin: 2px;
+      }
+
+      #company_details, #college_details, #languages, #hobbies, #achievements, #college, #project, #Skills {
+        padding-left: 2em;
+      }
+
+      #experince {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap; /* Allows elements to stack on smaller screens */
+      }
+
+      #project, #Skills {
+        margin-bottom: 10px;
+      }
+      #technical_skills{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #Skills{
+        width: 45%;
+      }
+
+      /* Responsive Design for Different Screen Sizes */
+      @media screen and (max-width: 548px) {
+        body {
+          max-width: 95%; /* Adjust for smaller screens */
+          font-size: 14px; /* Reduce text size */
+        }
+
+        header {
+          flex-direction: column; /* Stack elements */
+          text-align: center;
+        }
+
+        #contact_details {
+          flex-direction: column;
+          text-align: center;
+        }
+        #contact_details a::after {
+          content: "";
+        }
+
+        #summary {
+          text-indent: 2em; /* Reduce indentation */
+        }
+
+        #company {
+          /* flex-direction: column; */
+          text-align: center;
+        }
+
+        #experince {
+          /* flex-direction: column; */
+          gap: 10px;
+        }
+
+        #company_details, #college_details, #languages, #hobbies, #achievements, #project, #college, #Skills {
+          padding-left: 1em; /* Reduce padding */
+        }
+        #Skills{
+          width: 100%;
+        }
+      }
+
+      /* Further Adjustments for Mobile (max-width: 480px) */
+      @media screen and (max-width: 480px) {
+        body {
+          max-width: 100%; /* Use full width */
+          padding: 10px;
+        }
+
+        #summary {
+          text-indent: 1.5em; /* Reduce indentation */
+        }
+
+        #contact_details a::after {
+          content: "";
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+
+        h2 {
+          font-size: 18px;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+
+        #contact_details {
+          gap: 3px;
+        }
+
+        #company_details, #college_details, #languages, #hobbies, #achievements, #project, #college, #Skills {
+          padding-left: 0.5em;
+        }
+        #Skills{
+          width: 100%;
+        }
+      }
+
+    </style>
+
+</head>
+<body>
+  <div class="container">
+    <header name="Full name", id="name">
+        <div name="First name", id="firstname">
+          <h1>Naga Dinesh Reddy</h1>
+        </div>
+        <div name="last name" id="lastname">
+          <h1>Koneti</h1>
+        </div>
+    </header>
+    <div name="Contact Detailes" id="contact_details">
+      <p>Email : <a name="email" id="email" href="mailto:nagadineshkoneti701@gmail.com">nagadineshkoneti701@gmail.com</a></p>
+      <p>Phone : <a name="phone" id="phone" href="http://wa.me/+916303186863">+91 6303186863</a></p>
+      <a name="Web page">My Page</a>
+      <a name="LinkedIn" id="linkedin" href="https://linkedin.com/in/naga-dinesh-reddy">Linked In</a>
+      <a name="GitHub" id="github" href="http://github.com/dinesh-reddy-k">Github</a>
+    </div>
+  </div>
+  <main>
+    <div class="line"></div>
+    <div name="Professional Summary" id="professional_summary">
+      <h1>Professional Summary</h1>
+      <p name="Professional Summary" id="summary">
+        Experienced Python Developer with expertise in automation, AI integration, and data processing. 
+        Built desktop apps, automated workflows, and integrated GPT APIs for content generation. 
+        Proficient in Selenium, TensorFlow, OpenCV, and Pandas. Delivered projects for clients globally, 
+        including image/video creation, stock data aggregation, and email automation. 
+        Enhanced test automation at Cisco, resolving Angular migration challenges. 
+        Skilled in problem-solving, Agile methodologies, and Jenkins.</p>
+    </div>
+    <div class="line"></div>
+    <div name="Professional Experience" id="experience">
+      <div name="Work Experience" >
+        <h1>Work Experience</h1>
+        <div name="Company Details" id="company_details" >
+          <div id="company" name="Company">
+            <h2 name="Company Name" id="cname">Freelancing</h2>
+            <h2>|</h2>
+            <p>Python Developer</p>
+          </div>
+          <div name="Worked Years" id="experince">
+            <h3 name="start Month" id="month">January</h3>
+            <h3 name="start Year" id="year">2023</h3>
+            <p>-</p>
+            <h3 name="end" id="status">Present</h3>
+          </div>
+
+          <div name="work summary"">
+            <div name="Project" id="project">
+              <h3>Image & Video Creation Using Python (Client: USA, Atlanta)</h3>
+              <ul>
+                <li>Developed a desktop application to generate images with content in empty spaces using trained models.</li>
+                <li>Automated video creation by stitching generated images with transitions and timers.</li>
+                <li>Integrated GPT APIs for content generation and used TensorFlow & OpenCV for image processing.</li>
+                <li>Overcame challenges in detecting empty spaces by splitting and placing content dynamically.</li>
+              </ul>
+            </div>
+            
+            <div name="Project" id="project">
+              <h3>Automated Content Posting System (Client: USA, Atlanta)</h3>
+              <ul>
+                <li>Built an automation tool for posting generated images/videos with marketing content & links.</li>
+                <li>Developed an image downloader to fetch watermark-free images for processing.</li>
+                <li>Used Selenium & Playwright to bypass captchas and ensure smooth automation.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>AI Test Case Validation Using Pytest (Client: Chennai, India)</h3>
+              <ul>
+                <li>Modified test cases in public repositories to intentionally fail and validate AI's error detection.</li>
+                <li>Set up test environments and selected relevant GitHub repositories based on dependencies.</li>
+                <li>Ensured seamless integration with AI verification workflows for client development teams.</li>
+              </ul>
+            </div>
+            
+            <div name="Project" id="project">
+              <h3>Email Automation in WordPress (Client: Australia)</h3>
+              <ul>
+                <li>Developed an automated email-based attendance tracking system for managers and employees.</li>
+                <li>Built custom PHP scripts and integrated an SMTP plugin to send unique tracking links daily.</li>
+                <li>Designed and managed MySQL tables for employee records, user details, and attendance tracking.</li>
+                <li>Ensured real-time tracking of email interactions, updating attendance data for managers.</li>
+                <li>Overcame challenges in learning PHP and implementing structured automation workflows.</li>
+                <li>Reduced manual work, eliminating the need for third-party services, and provided the company with a fully automated in-house solution.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>NSE Stock Data Aggregator (Client: India)</h3>
+              <ul>
+                <li>Developed a desktop application to fetch and display live NSE stock data in a structured format.</li>
+                <li>Used Python, PyQt, nsepython, Selenium, BeautifulSoup, requests for data extraction and UI development.</li>
+                <li>Scraped stock data from multiple sources to ensure accuracy and calculated growth percentages.</li>
+                <li>Implemented API interception techniques with requests and Selenium to overcome scraping challenges.</li>
+                <li>Designed and structured the UI in real time with client feedback for an optimized user experience.</li>
+                <li>Eliminated the need for the client to switch between multiple platforms, providing a unified stock data dashboard.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Bulk PDF Downloader (Client: India)</h3>
+              <ul>
+                <li>Automated downloading of ~1M PDFs from a government website.</li>
+                <li>Used Python, Selenium, pytesseract, pymupdf for scraping and CAPTCHA solving.</li>
+                <li>Optimized download process by handling recurring CAPTCHA every 25 files.</li>
+                <li>Enabled seamless bulk downloads without manual intervention.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Shopping Application (Client: Australia)</h3>
+              <ul>
+                <li>Developed a prototype desktop shopping app with seller and buyer modules.</li>
+                <li>Used Python, SQLite, Tkinter for UI and database management.</li>
+                <li>Enabled user authentication, product catalog, cart, and stock management.</li>
+                <li>Provided a functional prototype that met client expectations.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Automated Excel Data Merger & Transformer (Client: USA)</h3>
+              <ul>
+                <li>Merged and processed data from multiple Excel sheets into a single structured file.</li>
+                <li>Used Python, pandas, openpyxl for automation.</li>
+                <li>Ensured error-free data transformation based on predefined client structure.</li>
+                <li>Automated data processing, reduced manual effort, and improved accuracy.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Web Scraping for Dynamic Pages (Client: Mumbai, India)</h3>
+              <ul>
+                <li>Scraped data from multiple webpages and saved it in a database and Excel.</li>
+                <li>Used Python, Selenium, pandas, SQLite, openpyxl for automation.</li>
+                <li>Handled dynamic content and pagination using Selenium’s click() and wait mechanisms.</li>
+                <li>Delivered an automated solution that eliminated manual data extraction.</li>
+              </ul>
+            </div>
+
+
+          </div>
+          <div class="dotted"></div>
+        </div>
+        <div name="Company Details" id="company_details">
+          <div id="company" name="Company">
+            <h2 name="Company Name" id="cname">Cisco</h2>
+            <h2>|</h2>
+            <p>Python Developer</p>
+          </div>
+          <div name="Worked Years" id="experince">
+            <h3 name="start Month" id="month">November</h3>
+            <h3 name="start Year" id="year">2022</h3>
+            <p>-</p>
+            <h3 name="end Month" id="month">November</h3>
+            <h3 name="end Year" id="year">2023</h3>
+          </div>
+          <div name="work summary"">
+            <div name="Project" id="project">
+              <h3>Onboarding & Initial Setup</h3>
+              <ul>
+                <li>Completed technical & soft skills training on Python, Full Stack, CI/CD.</li>
+                <li>Understood automation testing framework (Selenium, PyTest, Requests).</li>
+                <li>Set up development environment (PyCharm, Git, Jira, Jenkins).</li>
+                <li>Assigned a mentor to guide initial automation processes.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Test Automation & Debugging</h3>
+              <ul>
+                <li>Fixed failing test cases from existing test suites.</li>
+                <li>Developed new automation scripts to expand test coverage.</li>
+                <li>Used Selenium for UI testing and Requests for API validation.</li>
+                <li>Introduced optimized test execution strategies.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Angular Migration & Automation Challenges</h3>
+              <ul>
+                <li>Migration to Angular-based UI caused major test failures.</li>
+                <li>Redesigned test automation strategy to align with new UI framework.</li>
+                <li>Developed XPath-based element locators to handle dynamic UI changes.</li>
+                <li>Used try-except & wait strategies to improve test stability.</li>
+                <li>Automated new features parallel to development.</li>
+                <li>Performed API testing with Postman to validate request parameters.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Bug Reporting, Security Testing & CI/CD Fixes</h3>
+              <ul>
+                <li>Performed pentesting with Burp Suite and found API security vulnerabilities.</li>
+                <li>Identified and fixed UI bugs in dropdown selection (Angular).</li>
+                <li>Reported API flaws where incorrect parameter modifications were accepted.</li>
+                <li>Worked on Jenkins pipeline optimization to stabilize CI/CD tests.</li>
+                <li>Fixed unstable automated tests across multiple projects.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>Project Completion & Key Achievements</h3>
+              <ul>
+                <li>Enhancing test coverage and report accuracy.</li>
+                <li>Successfully handled Angular migration challenges.</li>
+                <li>Reduced automation test failures & optimized execution time.</li>
+                <li>Contributed to security testing & bug fixing.</li>
+                <li>Closed all Jira tickets and ensured smooth project handover.</li>
+                <li>Received positive feedback from Cisco team for efficiency.</li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="dotted"></div>
+        </div>
+        <div name="Company Details" id="company_details">
+          <div id="company" name="Company">
+            <h2 name="Company Name" id="cname">Self Developed</h2>
+            <h2>|</h2>
+            <p>Python Developer</p>
+          </div>
+          <div name="work summary"">
+            <div name="Project" id="project">
+              <h3>Email Automation Telegram Bot</h3>
+              <ul>
+                <li>Automated the process of sending job applications via email using a Telegram bot.</li>
+                <li>When a user provides an email, job role, subject, body, and resume, the bot sends an email via SMTP.</li>
+                <li>Used Python, python-telegram, Telegram Bot API, SMTP for implementation.</li>
+                <li>Faced no major challenges as the requirements were clear.</li>
+                <li>Successfully reduced manual effort in sending job applications, saving time and improving efficiency.</li>
+              </ul>
+            </div>
+
+            <div name="Project" id="project">
+              <h3>LinkedIn Job Application Automation</h3>
+              <ul>
+                <li>Automated the job application process on LinkedIn by applying to jobs on behalf of the user.</li>
+                <li>Used Python, Selenium, and GPT API to search for "Easy Apply" job posts and filter jobs based on user preferences.</li>
+                <li>Filled out application forms by retrieving answers from GPT API and stored responses for future use to avoid redundant API calls.</li>
+                <li>Successfully reduced manual effort and streamlined the job application process.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <h1>Skills</h1>
+    <div name="Technical skills" id="technical_skills">
+  
+      <div id="Skills">
+        <h3>Programming Languages:</h3>
+        <ul>
+          <li>Python (Primary)</li>
+          <li>SQL (SQLite, MySQL)</li>
+          <li>JavaScript (Basics)</li>
+          <li>HTML, CSS</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Web Scraping & Data Extraction:</h3>
+        <ul>
+          <li>Selenium</li>
+          <li>Requests</li>
+          <li>BeautifulSoup </li>
+          <li>PyTesseract (OCR)</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Automation Testing:</h3>
+        <ul>
+          <li>Selenium WebDriver (UI Testing)</li>
+          <li>PyTest (Test framework)</li>
+          <li>Requests (API Testing)</li>
+          <li>Postman (Manual API testing)</li>
+          <li>Burp Suite (Penetration Testing)</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Bot Technologies</h3>
+        <ul>
+          <li>Telegram bot</li>
+          <li>Whatsapp Automation</li>
+          <li>Discord bot</li>
+          <li>Social media automation</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3> Desktop Applications:</h3>
+        <ul>
+          <li>Tkinter</li>
+          <li>PyQt</li>
+          <li>CustomTkinter</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Stock Market APIs:</h3>
+        <ul>
+          <li>NSE APIs</li>
+          <li>Yahoo Finance API (Stock data retrieval)</li>
+          <li>Screener APIs</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Backend Development & Databases:</h3>
+        <ul>
+          <li>Django (Web Framework)</li>
+          <li>Flask </li>
+          <li>SQLite </li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Data Processing & Analysis:</h3>
+        <ul>
+          <li>Pandas (Data manipulation & cleaning)</li>
+          <li>OpenPyXL (Excel automation)</li>
+          <li>Matplotlib, Seaborn (Data visualization)</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Software Development Methodologies:</h3>
+        <ul>
+          <li>Agile Methodologies</li>
+          <li>Test-Driven Development (TDD)</li>
+          <li>Behavior-Driven Development (BDD)</li>
+          <li>Result Oriented Approach</li>
+        </ul>
+      </div>
+      <div id="Skills">
+        <h3>Soft Skills:</h3>
+        <ul>
+          <li>Problem solving</li>
+          <li>Time Management</li>
+          <li>Team Collaboration</li>
+          <li>Critical Thinking</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="line"></div>
+    <div name="Education" id="edication">
+      <h1>Education</h1>
+      <div name="college" id="college_details">
+        <h2 name="degree">Bachelor of Technology (B.Tech)</h2>
+        <div id="college">
+          <p name="Department" >Electronics and Communication Engineering</p>
+          <p name="college name" id="college_name">Puducherry Technological University</p>
+          <p> Year of Passout : 2022</p>
+          <p> CGPA : 7.82</p>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <h1>Achievements</h1>
+    <div name="Achievements" id="achievements">
+      <ul>
+        <li>Recognisation for completing Angular migration.</li>
+        <li>Good feedback of completing Freelancing project asper requirements.</li>
+        <li>Feedback for completing projects in time.</li>
+      </ul>
+    </div>
+    <div class="line"></div>
+    <h2>Hobbies</h2>
+    <div name="Hobbies" id="hobbies">
+      <ul>
+        <li>Playing Cricket</li>
+        <li>Playing Mobile Games</li>
+        <li>Browsing Internet</li>
+        <li>Farming</li>
+      </ul>
+    </div>
+    <div class="line"></div>
+    <h1>Languages</h1>
+    <div name="Languages" id="languages">
+      <ul>
+        <li>English</li>
+        <li>Telugu</li>
+      </ul>
+    </div>
+    <div class="line"></div>
+  </main>
+</body>
+</html>
